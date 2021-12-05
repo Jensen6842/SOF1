@@ -1,0 +1,6 @@
+a = float(input("What is the length of side a? "))
+b = float(input("What is the length of side b? "))
+c = float(input("What is the length of side c? "))
+s = 0.5 * (a + b + c)
+area = pow((s*(s - a)*(s - b)*(s - c)), 0.5)
+print("The area is", str(area))

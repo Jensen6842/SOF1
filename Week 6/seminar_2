@@ -1,0 +1,9 @@
+Function listSum(list: Array): Integer
+    highest = 0: Integer
+    foreach start in range(len(list)) do
+        foreach end in range(len(list)) do
+            if sum(list[start:end+1]) > highest then
+                highest := sum(list[start:end+1])
+        endforeach
+    endforeach
+    return highest

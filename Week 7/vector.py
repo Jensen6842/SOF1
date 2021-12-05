@@ -1,0 +1,3 @@
+class Vector(self):
+    
+    pass
